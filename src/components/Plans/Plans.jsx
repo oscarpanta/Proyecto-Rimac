@@ -111,7 +111,7 @@ export const Plans = ({ plans, user }) => {
                 <div className="card position-relative planes__card">
                   <div className="card-body">
                     <img
-                      src="/src/assets/icon/IcProtectionLight.png"
+                      src="/assets/icon/IcProtectionLight.png"
                       alt="Icon"
                     />
 
@@ -150,7 +150,7 @@ export const Plans = ({ plans, user }) => {
                           </div>
                           <div className="col-5">
                             <img
-                              src="/src/assets/icon/IcHomeLight.png"
+                              src="/assets/icon/IcHomeLight.png"
                               alt="Icon"
                             />
                           </div>

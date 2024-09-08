@@ -42,14 +42,14 @@
 
 .home::before {
   left: 0;
-  background-image: url('../src/assets/images/fondoizquierdo.png');
+  background-image: url('/assets/images/fondoizquierdo.png');
   background-size: cover;
   background-position: center;
 }
 
 .home::after {
   right: 0;
-  background-image: url('../src/assets/images/fondoderecho.png');
+  background-image: url('/assets/images/fondoderecho.png');
   background-size: cover;
   background-position: center;
 }
@@ -83,11 +83,11 @@ max-width: 450px;
         right: 0;
         left: auto;
       
-        background-image: url('../src/assets/images/fondoderecho.png');
+        background-image: url('/assets/images/fondoderecho.png');
       }
       
       .home::after {
-        background-image: url('../src/assets/images/fondoizquierdo.png');
+        background-image: url('/assets/images/fondoizquierdo.png');
 
         left: 0;
         right: auto;

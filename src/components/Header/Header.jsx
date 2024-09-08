@@ -2,7 +2,7 @@ export const Header = () => {
   return (
     <header className="header">
       <div className="header__icon">
-        <img src="../../src/assets/icon/rimac.png" alt="Icon" />
+      <img src="/assets/icon/rimac.png" alt="Icon" />
       </div>
       <div className="header__text">
         <p>

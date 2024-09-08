@@ -5,7 +5,7 @@ export const Home = () => {
     <section className="home row">
       <div className="home__content col-sm-6 col-12  row pe-0">
         <div className="home__img col-lg-12 col-md-12 col-sm-12 order-sm-1 order-2 col-6">
-          <img src="../src/assets/images/imagen_formulario.png" alt="" />
+          <img src="assets/images/imagen_formulario.png" alt="" />
         </div>
         <div className="home__responsive d-sm-none order-sm-2 order-1  col-6 py-5 text-center">
           <label className="home__responsive__informative__title mb-3">

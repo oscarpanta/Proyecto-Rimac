@@ -1,0 +1,114 @@
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+@import "/src/components/Header/Header.module.scss";
+@import "/src/components/Footer/Footer.module.scss";
+@import "/src/components/Form/Form.module.scss";
+@import "/src/components/Plans/Plans.module.scss";
+
+
+.home{
+
+    margin: auto;
+    display: flex;
+    max-width: 1300px;
+    position: relative;
+
+    z-index: 1;
+}
+.home .home__img{
+    background-size: cover;
+    padding: 20px;
+
+}
+.home .home__formulario{
+    background-size: cover;
+}
+.home .home__img img{
+  width: 85%;
+
+
+}
+
+
+.home::before,
+.home::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 20vw; 
+
+}
+
+.home::before {
+  left: 0;
+  background-image: url('../src/assets/images/fondoizquierdo.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.home::after {
+  right: 0;
+  background-image: url('../src/assets/images/fondoderecho.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.border-height{
+  height: 0.2px;
+  background-color: gray;
+  margin: auto;
+width: 100%;
+margin:  15px auto;
+max-width: 450px;
+
+}
+.home__responsive__informative__title{
+  background: rgb(0,244,226);
+    background: linear-gradient(0deg, rgba(0,244,226,1) 0%, rgba(0,255,127,1) 100%);
+    padding: 2px 8px 2px 8px;
+    font-weight: bold;
+}
+.home__responsive__informative__text{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #03050F;
+}
+
+@media (max-width: 768px) {
+
+    .home::before {
+        right: 0;
+        left: auto;
+      
+        background-image: url('../src/assets/images/fondoderecho.png');
+      }
+      
+      .home::after {
+        background-image: url('../src/assets/images/fondoizquierdo.png');
+
+        left: 0;
+        right: auto;
+
+      }
+}
+@media(max-width:576px)
+{
+  .home .home__img img{
+    height: 200px;
+    width: 160px;
+    
+  }
+  .home .home__formulario{
+    margin: auto;
+    max-width: 450px;
+  
+  }
+  .home__content{
+    max-width: 450px;
+    margin: auto;
+    }
+
+}

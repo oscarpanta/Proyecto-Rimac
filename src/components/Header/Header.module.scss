@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: none;
+    max-width: 1300px;
+    margin: auto;
+    &__icon {
+      img {
+        width: 80px;
+        height: 40px;
+      }
+    }
+  
+    &__text {
+
+      font-weight: bold;
+      color: #333; 
+      &__medio {
+        font-size: 14px;
+        margin-right: 10px;
+        font-weight: normal;
+        
+      }
+
+      &__numero{
+        font-size: 20px;
+        color: #333;
+        font-weight: bold;
+      }
+    }
+
+  }
+
+//   @media(max-width:576px)
+// {
+
+//   .header{
+//     &__text {
+
+     
+//     }
+//   }
+// }
+ 

@@ -1,0 +1,27 @@
+.footer {
+  background-color: #03050f;
+  position: relative;
+  z-index: 10;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+    max-width: 1300px;
+    &__icon {
+      img {
+        width: 80px;
+        height: 40px;
+      }
+    }
+
+    &__text {
+      &__copyright {
+        color: #f8f9ff;
+        font-size: 14px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    }
+  }
+}

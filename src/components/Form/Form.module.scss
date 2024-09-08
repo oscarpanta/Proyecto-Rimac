@@ -1,0 +1,102 @@
+.home__formulario {
+  max-width: 500px;
+  // margin-left: 50px;
+  // margin-right: 50px;
+ 
+}
+.content__informative{
+  &__title{
+    background: rgb(0,244,226);
+    background: linear-gradient(0deg, rgba(0,244,226,1) 0%, rgba(0,255,127,1) 100%);
+    padding: 4px 8px 4px 8px;
+    font-weight: bold;
+  }
+  &__text{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  &__text2{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+  }
+}
+.formulario__data{
+  &__fields {
+    border-radius: 10px;
+    border-width: 5px;
+    border: solid 1px;
+    border-color: #5e6488;
+    select,
+    input {
+      border-width: 0px;
+    }
+    &__numero {
+      border-left-style: groove;
+
+    }
+  
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__fields2 {
+    border-radius: 10px;
+    border-width: 5px;
+    border: solid 1px;
+    border-color: #5e6488;
+ 
+    input {
+      border-width: 0px;
+    }
+  
+    
+  }
+  &__label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5E6488;
+  }
+  &__checkbox__label{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+  a{
+    color: #03050F;
+    font-weight: 600;
+    size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+  button{
+    padding: 20px 20px 20px 20px;
+    border-radius: 40px;
+    width: 195px;
+    background-color: black;
+
+
+  }
+  button span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #fff;
+  }
+}
+
+@media(max-width:576px)
+{
+  .formulario__data button{
+    width: 100%;
+   margin-bottom: 20px;
+}
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Planes } from "./pages/Planes";
-import { Header } from "./components/header/Header";
+import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 import { RouteProtected } from "./components/Plans/RouteProtected";
 import 'bootstrap/dist/css/bootstrap.min.css';

@@ -1,5 +1,5 @@
 .home__formulario {
-  max-width: 500px;
+  max-width: 450px;
   // margin-left: 50px;
   // margin-right: 50px;
  
@@ -10,6 +10,7 @@
     background: linear-gradient(0deg, rgba(0,244,226,1) 0%, rgba(0,255,127,1) 100%);
     padding: 4px 8px 4px 8px;
     font-weight: bold;
+    border-radius: 4px;
   }
   &__text{
     font-weight: 700;

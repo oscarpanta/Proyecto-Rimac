@@ -67,8 +67,9 @@ max-width: 450px;
 .home__responsive__informative__title{
   background: rgb(0,244,226);
     background: linear-gradient(0deg, rgba(0,244,226,1) 0%, rgba(0,255,127,1) 100%);
-    padding: 2px 8px 2px 8px;
+    padding: 4px 8px 4px 8px;
     font-weight: bold;
+    border-radius: 4px;
 }
 .home__responsive__informative__text{
   font-weight: 700;

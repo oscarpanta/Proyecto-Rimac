@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export const Plan = ({
   user,
@@ -7,14 +7,30 @@ export const Plan = ({
   planesFiltrados,
   planSeleccion,
 }) => {
+
+  const navigate=useNavigate();
+  const backHome=()=>{
+    
+    localStorage.removeItem("usuario");
+
+    navigate("/");
+  }
   return (
     <>
-      <NavLink to="/" className="planes__volver ms-5">
+      {/* <NavLink to="/" className="planes__volver ms-5">
         <div>
           <i class="fa-solid fa-circle-arrow-left me-2"></i>
           Volver
         </div>
-      </NavLink>
+      </NavLink> */}
+      <div className="planes__volver">
+     
+          <a onClick={() => backHome()} className="">
+            <i class="fa-solid fa-circle-arrow-left me-2"></i>
+            Volver
+          </a>
+        
+      </div>
 
       <div className="text-center planes__informative">
         <p className="planes__informative__head uppercase">

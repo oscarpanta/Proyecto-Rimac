@@ -127,6 +127,11 @@
       color: #fff;
       width: 100%;
     }
+    .card-body{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
   }
   ul li {
     line-height: 28px;
